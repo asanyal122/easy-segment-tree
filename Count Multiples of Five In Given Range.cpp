@@ -10,6 +10,10 @@ void build(int idx,int l,int r)
 {
     if(l==r)
     {
+    	//if a[l] divisible by five then store one 
+    	//otherwise store zero
+    	//then the problem reduces to counting 
+    	//the frequency of ones in query range.
         if(a[l]%5==0)
         {
             tree[idx]=1;
